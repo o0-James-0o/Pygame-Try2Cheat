@@ -12,33 +12,33 @@ transformações geométricas, janela, viewport, clipping e texturização, demo
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top">
+    <td valign="top">
       <h2>🕹️ Como jogar</h2>
       <h3>🎯 Objetivo</h3>
       <table width="100%" cellspacing="0" cellpadding="6">
-        <tr align="center">
-          <th width="22%">Meta</th>
-          <th width="63%">Descrição</th>
-          <th  width="15%">Ícone</th>
+        <tr>
+          <th align="left">Meta</th>
+          <th align="left">Descrição</th>
+          <th align="left">Ícone</th>
         </tr>
-        <tr align="center">
+        <tr>
           <td>Completar a cola</td>
-          <td>Preencha a barra de <strong>COLA</strong> consultando o celular no momento certo.</td>
-          <td width="150">
+          <td>Preencha a barra na hora certa.</td>
+          <td>
             <img src="assets/cola.jpg" alt="Ícone completar a cola" width="32" height="32">
           </td>
         </tr>
-        <tr align="center">
+        <tr>
           <td>Evitar suspeitas</td>
-          <td>Não deixe o professor perceber o comportamento do aluno.</td>
-          <td align="center">
+          <td>Não deixe o professor perceber.</td>
+          <td>
             <img src="assets/ninja.png" alt="Ícone evitar suspeitas" width="32" height="32">
           </td>
         </tr>
-        <tr align="center">
+        <tr>
           <td>Concluir a prova</td>
-          <td>Finalize a partida antes que o tempo acabe ou o risco fique alto demais.</td>
-          <td align="center">
+          <td>Termine antes do tempo acabar</td>
+          <td>
             <img src="assets/prova_concluida.png" alt="Ícone concluir a prova" width="32" height="32">
           </td>
         </tr>
@@ -47,14 +47,14 @@ transformações geométricas, janela, viewport, clipping e texturização, demo
       <h3>⌨️🖱️ Controles</h3>
       <table width="100%" cellspacing="0" cellpadding="6">
         <tr align="center">
-          <th width="22%">Tecla</th>
-          <th width="63%">Descrição</th>
+          <th width="24%">Tecla</th>
+          <th width="61%">Descrição</th>
           <th width="15%">Ícone</th>
         </tr>
         <tr align="center">
           <td><strong>ESPAÇO</strong></td>
           <td>Pegar ou guardar o celular</td>
-          <td align="center" width="150">
+          <td align="center" width="130">
             <img src="assets/space.png" alt="Ícone tecla espaço" width="32" height="32">
           </td>
         </tr>
@@ -89,7 +89,7 @@ transformações geométricas, janela, viewport, clipping e texturização, demo
       </table>
     </td>
     <td width="50%" valign="middle" align="center">
-      <img src="assets/gif_jogo.gif" alt="GIF principal do jogo" width="90%" height="600">
+      <img src="assets/gif_jogo.gif" alt="GIF principal do jogo" width="100%">
     </td>
   </tr>
 </table>
@@ -100,9 +100,9 @@ transformações geométricas, janela, viewport, clipping e texturização, demo
 
 <table width="100%">
   <tr align="center">
-    <th width="25%">Mecânica</th>
-    <th width="35%">Descrição</th>
-    <th width="40%">GIF</th>
+    <th width="30%">Mecânica</th>
+    <th width="60%">Descrição</th>
+    <th width="10%">GIF</th>
   </tr>
   <tr align="center">
     <td><strong>Barra de COLA</strong></td>
@@ -128,7 +128,7 @@ transformações geométricas, janela, viewport, clipping e texturização, demo
   <tr align="center">
     <td><strong>Câmera</strong></td>
     <td>Movimentação, zoom e minimapa.</td>
-    <td>
+    <td width="600">
       <img src="assets/gif_camera.gif" alt="GIF da câmera" width="220">
     </td>
   </tr>
@@ -236,20 +236,23 @@ python main.py
 
 
 <div align="left">
-  <img src="assets/james.jpg" alt="Avatar James Taylor" width="72" height="72" style="border-radius:50%; object-fit:cover; vertical-align:middle;">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=760&height=72&lines=James+Taylor+%7C+%F0%9F%96%A5%EF%B8%8F+Interface+visual+e+documenta%C3%A7%C3%A3o+t%C3%A9cnica." alt="James Taylor | Interface visual e documentação técnica" style="vertical-align:middle; margin-left:12px;">
+  <img src="assets/james.jpg" alt="Avatar James Taylor" width="72" height="72">
+  &nbsp;&nbsp;
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=760&height=72&lines=James+Taylor+%7C+%F0%9F%96%A5%EF%B8%8F+Interface+visual+e+documenta%C3%A7%C3%A3o+t%C3%A9cnica." alt="James Taylor | Interface visual e documentação técnica">
 </div>
 
 <hr>
 
 <div align="left">
-  <img src="assets/Lucas.png" alt="Avatar Lucas Almeida" width="72" height="72" style="border-radius:50%; object-fit:cover; vertical-align:middle;">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=760&height=72&lines=Lucas+Almeida+%7C+%F0%9F%8E%A8+Algoritmos+gr%C3%A1ficos." alt="Lucas Almeida | Algoritmos gráficos" style="vertical-align:middle; margin-left:12px;">
+  <img src="assets/Lucas.png" alt="Avatar Lucas Almeida" width="72" height="72">
+  &nbsp;&nbsp;
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=760&height=72&lines=Lucas+Almeida+%7C+%F0%9F%8E%A8+Algoritmos+gr%C3%A1ficos." alt="Lucas Almeida | Algoritmos gráficos">
 </div>
 
 <hr>
 
 <div align="left">
-  <img src="assets/Victor.png" alt="Avatar Victor Reinaldo" width="72" height="72" style="border-radius:50%; object-fit:cover; vertical-align:middle;">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=760&height=72&lines=Victor+Reinaldo+%7C+%E2%9A%99%EF%B8%8F+L%C3%B3gica+do+jogo+e+mec%C3%A2nicas+principais." alt="Victor Reinaldo | Lógica do jogo e mecânicas principais" style="vertical-align:middle; margin-left:12px;">
+  <img src="assets/Victor.png" alt="Avatar Victor Reinaldo" width="72" height="72">
+  &nbsp;&nbsp;
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=760&height=72&lines=Victor+Reinaldo+%7C+%E2%9A%99%EF%B8%8F+L%C3%B3gica+do+jogo+e+mec%C3%A2nicas+principais." alt="Victor Reinaldo | Lógica do jogo e mecânicas principais">
 </div>
