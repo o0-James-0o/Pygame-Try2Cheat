@@ -2,7 +2,7 @@
 
 **Try2Cheat** é um Jogo 2D com mecânicas arcade desenvolvida como projeto prático da disciplina de **Computação Gráfica**.
 
-O jogo foi criado com o objetivo de aplicar, de forma visual e interativa, conceitos como rasterização, preenchimento, animação 2D<br>
+O jogo foi criado com o objetivo de aplicar, de forma visual e interativa, conceitos como rasterização, preenchimento, animação 2D
 transformações geométricas, janela, viewport, clipping e texturização, demonstrando na prática o conhecimento construído ao longo do projeto.
 
 
@@ -236,7 +236,7 @@ python main.py
 
 
 <div align="left">
-  <img src="assets/james.jpg" alt="Avatar James Taylor" width="72" height="72">
+  <img src="assets/James.png" alt="Avatar James Taylor" width="72" height="72">
   &nbsp;&nbsp;
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=760&height=72&lines=James+Taylor+%7C+%F0%9F%96%A5%EF%B8%8F+Interface+visual+e+documenta%C3%A7%C3%A3o+t%C3%A9cnica." alt="James Taylor | Interface visual e documentação técnica">
 </div>
