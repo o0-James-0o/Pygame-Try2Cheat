@@ -1,0 +1,61 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Build / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# Test / cache / coverage
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# =========================
+# OS / temporary files
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Local environment files
+# =========================
+.env
+.env.*
+
+# =========================
+# Optional runtime files
+# =========================
+saves/
