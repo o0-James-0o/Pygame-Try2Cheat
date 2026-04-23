@@ -12,14 +12,14 @@ transformações geométricas, janela, viewport, clipping e texturização, demo
 
 <table width="100%">
   <tr>
-    <td valign="top">
+    <td width="420" valign="top">
       <h2>🕹️ Como jogar</h2>
       <h3>🎯 Objetivo</h3>
       <table width="100%" cellspacing="0" cellpadding="6">
         <tr>
-          <th align="left">Meta</th>
-          <th align="left">Descrição</th>
-          <th align="left">Ícone</th>
+          <th align="center">Meta</th>
+          <th align="center">Descrição</th>
+          <th align="center">Ícone</th>
         </tr>
         <tr>
           <td>Completar a cola</td>
@@ -37,7 +37,7 @@ transformações geométricas, janela, viewport, clipping e texturização, demo
         </tr>
         <tr>
           <td>Concluir a prova</td>
-          <td>Termine antes do tempo acabar</td>
+          <td>Termine antes do tempo acabar.</td>
           <td>
             <img src="assets/prova_concluida.png" alt="Ícone concluir a prova" width="32" height="32">
           </td>
@@ -54,7 +54,7 @@ transformações geométricas, janela, viewport, clipping e texturização, demo
         <tr align="center">
           <td><strong>ESPAÇO</strong></td>
           <td>Pegar ou guardar o celular</td>
-          <td align="center" width="130">
+          <td align="center">
             <img src="assets/space.png" alt="Ícone tecla espaço" width="32" height="32">
           </td>
         </tr>
@@ -81,15 +81,15 @@ transformações geométricas, janela, viewport, clipping e texturização, demo
         </tr>
         <tr align="center">
           <td><strong>R</strong></td>
-          <td>Reiniciar após vitória ou derrota</td>
-          <td align="center">
+          <td>Reiniciar</td>
+          <td align="center" width="165">
             <img src="assets/R.png" alt="Ícone tecla R" width="32" height="32">
           </td>
         </tr>
       </table>
     </td>
-    <td width="50%" valign="middle" align="center">
-      <img src="assets/gif_jogo.gif" alt="GIF principal do jogo" width="100%">
+    <td valign="middle" align="center">
+      <img src="assets/gif_jogo.gif" alt="GIF principal do jogo" width="500">
     </td>
   </tr>
 </table>
@@ -244,7 +244,7 @@ python main.py
 <hr>
 
 <div align="left">
-  <img src="assets/Lucas.png" alt="Avatar Lucas Almeida" width="72" height="72">
+  <img src="assets/Lucas_circular.png" alt="Avatar Lucas Almeida" width="72" height="72">
   &nbsp;&nbsp;
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=760&height=72&lines=Lucas+Almeida+%7C+%F0%9F%8E%A8+Algoritmos+gr%C3%A1ficos." alt="Lucas Almeida | Algoritmos gráficos">
 </div>
