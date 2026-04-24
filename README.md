@@ -88,8 +88,8 @@ transformações geométricas, janela, viewport, clipping e texturização, demo
         </tr>
       </table>
     </td>
-    <td width="418" valign="middle" align="center">
-      <img src="assets/gif_jogo.gif" alt="GIF principal do jogo" width="418">
+    <td width="400" valign="middle" align="center">
+      <img src="assets/gif_jogo.gif" alt="GIF principal do jogo">
     </td>
   </tr>
 </table>
