@@ -10,32 +10,32 @@ transformações geométricas, janela, viewport, clipping e texturização, demo
 
 ## 🖼️ Preview do jogo
 
-<table width="100%">
+<table width="835" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="420" valign="top">
+    <td width="417" valign="top">
       <h2>🕹️ Como jogar</h2>
       <h3>🎯 Objetivo</h3>
-      <table width="100%" cellspacing="0" cellpadding="6">
-        <tr>
-          <th align="center">Meta</th>
-          <th align="center">Descrição</th>
-          <th align="center">Ícone</th>
+      <table width="417" cellspacing="0" cellpadding="6">
+        <tr align="center">
+          <th width="125">Meta</th>
+          <th width="230">Descrição</th>
+          <th width="62">Ícone</th>
         </tr>
-        <tr>
+        <tr align="center">
           <td>Completar a cola</td>
           <td>Preencha a barra na hora certa.</td>
           <td>
             <img src="assets/cola.jpg" alt="Ícone completar a cola" width="32" height="32">
           </td>
         </tr>
-        <tr>
+        <tr align="center">
           <td>Evitar suspeitas</td>
           <td>Não deixe o professor perceber.</td>
           <td>
             <img src="assets/ninja.png" alt="Ícone evitar suspeitas" width="32" height="32">
           </td>
         </tr>
-        <tr>
+        <tr align="center">
           <td>Concluir a prova</td>
           <td>Termine antes do tempo acabar.</td>
           <td>
@@ -45,51 +45,51 @@ transformações geométricas, janela, viewport, clipping e texturização, demo
       </table>
       <br>
       <h3>⌨️🖱️ Controles</h3>
-      <table width="100%" cellspacing="0" cellpadding="6">
+      <table width="417" cellspacing="0" cellpadding="6">
         <tr align="center">
-          <th width="24%">Tecla</th>
-          <th width="61%">Descrição</th>
-          <th width="15%">Ícone</th>
+          <th width="95">Tecla</th>
+          <th width="260">Descrição</th>
+          <th width="62">Ícone</th>
         </tr>
         <tr align="center">
           <td><strong>ESPAÇO</strong></td>
           <td>Pegar ou guardar o celular</td>
-          <td align="center">
+          <td>
             <img src="assets/space.png" alt="Ícone tecla espaço" width="32" height="32">
           </td>
         </tr>
         <tr align="center">
           <td><strong>SETAS</strong></td>
           <td>Mover a câmera</td>
-          <td align="center">
+          <td>
             <img src="assets/teclas.png" alt="Ícone teclas de seta" width="32" height="32">
           </td>
         </tr>
         <tr align="center">
           <td><strong>SCROLL</strong></td>
           <td>Aplicar zoom da câmera</td>
-          <td align="center">
+          <td>
             <img src="assets/scroll.png" alt="Ícone scroll do mouse" width="32" height="32">
           </td>
         </tr>
         <tr align="center">
           <td><strong>ESC</strong></td>
           <td>Voltar ao menu</td>
-          <td align="center">
+          <td>
             <img src="assets/esc.png" alt="Ícone tecla ESC" width="32" height="32">
           </td>
         </tr>
         <tr align="center">
           <td><strong>R</strong></td>
           <td>Reiniciar</td>
-          <td align="center" width="165">
+          <td>
             <img src="assets/R.png" alt="Ícone tecla R" width="32" height="32">
           </td>
         </tr>
       </table>
     </td>
-    <td valign="middle" align="center">
-      <img src="assets/gif_jogo.gif" alt="GIF principal do jogo" width="500">
+    <td width="418" valign="middle" align="center">
+      <img src="assets/gif_jogo.gif" alt="GIF principal do jogo" width="418">
     </td>
   </tr>
 </table>
@@ -236,23 +236,23 @@ python main.py
 
 
 <div align="left">
-  <img src="assets/James.png" alt="Avatar James Taylor" width="72" height="72">
+  <img src="assets/James.png" alt="Avatar James Taylor" width="72" height="72" align="middle">
   &nbsp;&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=760&height=72&lines=James+Taylor+%7C+%F0%9F%96%A5%EF%B8%8F+Interface+visual+e+documenta%C3%A7%C3%A3o+t%C3%A9cnica." alt="James Taylor | Interface visual e documentação técnica">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=James+Taylor+%7C+%F0%9F%96%A5%EF%B8%8F+Interface+visual+e+documenta%C3%A7%C3%A3o+t%C3%A9cnica." alt="James Taylor | Interface visual e documentação técnica" align="middle">
 </div>
 
 <hr>
 
 <div align="left">
-  <img src="assets/Lucas_circular.png" alt="Avatar Lucas Almeida" width="72" height="72">
+  <img src="assets/Lucas_circular.png" alt="Avatar Lucas Almeida" width="72" height="72" align="middle">
   &nbsp;&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=760&height=72&lines=Lucas+Almeida+%7C+%F0%9F%8E%A8+Algoritmos+gr%C3%A1ficos." alt="Lucas Almeida | Algoritmos gráficos">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Lucas+Almeida+%7C+%F0%9F%8E%A8+Algoritmos+gr%C3%A1ficos." alt="Lucas Almeida | Algoritmos gráficos" align="middle">
 </div>
 
 <hr>
 
 <div align="left">
-  <img src="assets/Victor.png" alt="Avatar Victor Reinaldo" width="72" height="72">
+  <img src="assets/Victor.png" alt="Avatar Victor Reinaldo" width="72" height="72" align="middle">
   &nbsp;&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=760&height=72&lines=Victor+Reinaldo+%7C+%E2%9A%99%EF%B8%8F+L%C3%B3gica+do+jogo+e+mec%C3%A2nicas+principais." alt="Victor Reinaldo | Lógica do jogo e mecânicas principais">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=A78BFA&vCenter=true&multiline=false&width=620&height=72&lines=Victor+Reinaldo+%7C+%E2%9A%99%EF%B8%8F+L%C3%B3gica+do+jogo+e+mec%C3%A2nicas+principais." alt="Victor Reinaldo | Lógica do jogo e mecânicas principais" align="middle">
 </div>
