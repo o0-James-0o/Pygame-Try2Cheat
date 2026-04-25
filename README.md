@@ -2,8 +2,9 @@
 
 **Try2Cheat** é um Jogo 2D com mecânicas arcade desenvolvida como projeto prático da disciplina de **Computação Gráfica**.
 
-O jogo foi criado com o objetivo de aplicar, de forma visual e interativa, conceitos como rasterização, preenchimento, animação 2D
-transformações geométricas, janela, viewport, clipping e texturização, demonstrando na prática o conhecimento construído ao longo do projeto.
+O Intuito do jogo é conseguir colar na prova sem ser pego pelo professor.  
+Além disso, o projeto aplica, de forma visual e interativa, conceitos como rasterização, preenchimento, animação 2D,  
+transformações geométricas, janela, viewport, clipping e texturização, demonstrando na prática o conhecimento construído ao longo do desenvolvimento.
 
 
 ---
