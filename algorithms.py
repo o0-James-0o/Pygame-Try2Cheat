@@ -28,6 +28,7 @@ ColorVertex = Tuple[float, float, Color]
 UV = Tuple[float, float]
 
 
+# DEMO_CAMERA - Janela/Viewport com pan e zoom
 @dataclass
 class WindowViewport:
     """
@@ -43,6 +44,7 @@ class WindowViewport:
     window: List[float]
     viewport: Tuple[int, int, int, int]
 
+    # DEMO_WORLD_TO_DEVICE - transformacao mundo->tela
     def world_to_device(self, point: Point) -> Tuple[int, int]:
         """Mapeia um ponto do espaço de mundo para coordenadas de tela."""
         wx, wy = point
@@ -73,6 +75,7 @@ class WindowViewport:
         self.window[1] += dy
         self._clamp_window()
 
+    # DEMO_ZOOM - diminui janela mantendo ponto de foco
     def zoom(self, factor: float, center: Point | None = None) -> None:
         """Aplica escala (zoom) à janela mantendo um ponto de foco."""
         if factor <= 0:
@@ -107,6 +110,7 @@ class WindowViewport:
         return tuple(int(round(v)) for v in self.window)
 
 
+# DEMO_TRANSFORM2D - matrizes 3x3 com coordenadas homogeneas
 class Transform2D:
     """
     Utilitário de matrizes 3x3 para transformações geométricas 2D.
@@ -141,6 +145,7 @@ class Transform2D:
                 result[row][col] = sum(a[row][k] * b[k][col] for k in range(3))
         return result
 
+    # DEMO_AROUND - rotacao em torno de um pivo
     @staticmethod
     def around(matrix: List[List[float]], pivot: Point) -> List[List[float]]:
         px, py = pivot
@@ -162,6 +167,7 @@ class Transform2D:
         return [Transform2D.apply(matrix, point) for point in points]
 
 
+# DEMO_COHEN_SUTHERLAND - clipping com outcodes binarios
 class CohenSutherlandClipper:
     """Implementação do recorte de reta por Cohen-Sutherland."""
     INSIDE = 0
@@ -184,6 +190,7 @@ class CohenSutherlandClipper:
             code |= CohenSutherlandClipper.BOTTOM
         return code
 
+    # DEMO_CLIP_LINE - testes OR (aceita) e AND (rejeita)
     @staticmethod
     def clip_line(
         x1: float,
@@ -241,6 +248,7 @@ class Rasterizer:
     def lerp(a: float, b: float, t: float) -> float:
         return a + (b - a) * t
 
+    # DEMO_SET_PIXEL - tijolo de tudo
     def set_pixel(self, surface: pygame.Surface, x: int, y: int, color: Color) -> None:
         """Escreve manualmente um pixel na superfície."""
         if 0 <= x < surface.get_width() and 0 <= y < surface.get_height():
@@ -249,6 +257,7 @@ class Rasterizer:
     def get_pixel(self, surface: pygame.Surface, x: int, y: int) -> Color:
         return surface.get_at((int(x), int(y)))[:3]
 
+    # DEMO_BRESENHAM - rasterizacao de reta com inteiros
     def draw_line(self, surface: pygame.Surface, p1: Tuple[int, int], p2: Tuple[int, int], color: Color) -> None:
         """Rasterização de reta com variação do algoritmo de Bresenham."""
         x1, y1 = p1
@@ -278,6 +287,7 @@ class Rasterizer:
         if closed:
             self.draw_line(surface, points[-1], points[0], color)
 
+    # DEMO_CIRCULO - ponto medio com simetria de 8
     def draw_circle(self, surface: pygame.Surface, center: Tuple[int, int], radius: int, color: Color) -> None:
         """Rasterização manual de circunferência."""
         cx, cy = center
@@ -308,6 +318,7 @@ class Rasterizer:
         for px, py in points:
             self.set_pixel(surface, px, py, color)
 
+    # DEMO_ELIPSE - ponto medio com 2 regioes e simetria de 4
     def draw_ellipse(self, surface: pygame.Surface, center: Tuple[int, int], rx: int, ry: int, color: Color) -> None:
         """Rasterização manual de elipse pelo método do ponto médio."""
         cx, cy = center
@@ -358,6 +369,7 @@ class Rasterizer:
         for px, py in points:
             self.set_pixel(surface, px, py, color)
 
+    # DEMO_FLOOD_FILL - pilha iterativa, conectividade 4
     def flood_fill(self, surface: pygame.Surface, seed: Tuple[int, int], fill_color: Color) -> None:
         """Preenchimento de região por Flood Fill."""
         sx, sy = seed
@@ -379,6 +391,7 @@ class Rasterizer:
             stack.append((x, y + 1))
             stack.append((x, y - 1))
 
+    # DEMO_SCANLINE - preenchimento por par/impar
     def fill_polygon_scanline(self, surface: pygame.Surface, vertices: Sequence[Tuple[int, int]], color: Color) -> None:
         """Preenchimento de polígonos por scanline."""
         if len(vertices) < 3:
@@ -419,6 +432,7 @@ class Rasterizer:
                 [colors[0], colors[index], colors[index + 1]],
             )
 
+    # DEMO_TEXTURA - preenchimento com UV interpolado
     def fill_polygon_textured(
         self,
         surface: pygame.Surface,
@@ -438,6 +452,7 @@ class Rasterizer:
                 texture,
             )
 
+    # DEMO_SCANLINE_GENERICO - base de gradiente e textura
     def fill_triangle_scanline(
         self,
         surface: pygame.Surface,
@@ -505,12 +520,14 @@ class Rasterizer:
                     )
                 self.set_pixel(surface, x, y, color)
 
+    # DEMO_SAMPLE_TEXTURE - amostragem com wrapping (u % 1.0)
     def sample_texture(self, texture: pygame.Surface, u: float, v: float) -> Color:
         """Amostra uma cor da textura a partir de coordenadas UV."""
         tx = int(abs(u % 1.0) * (texture.get_width() - 1))
         ty = int(abs(v % 1.0) * (texture.get_height() - 1))
         return texture.get_at((tx, ty))[:3]
 
+    # DEMO_DRAW_CLIPPED_LINE - Cohen-Sutherland + Bresenham
     def draw_clipped_line(
         self,
         surface: pygame.Surface,
