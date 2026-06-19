@@ -9,7 +9,7 @@ A partir dessa proposta, o projeto aplica, de forma visual e interativa, conceit
 
 ## ▶️ Vídeo do projeto
 
-O projeto possui uma demonstração em vídeo no **YouTube**, mostrando a execução do jogo, suas mecânicas principais e a interação do jogador.
+O projeto possui uma demonstração em vídeo no **YouTube**, mostrando suas mecânicas principais e a interação do jogador durante a partida.
 <div align="center">
   <table width="100%"> 
     <tr> 
