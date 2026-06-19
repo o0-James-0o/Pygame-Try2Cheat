@@ -5,6 +5,27 @@
 O intuito do jogo é conseguir colar na prova sem ser pego pelo professor, administrando o momento certo de usar o celular e controlando o risco durante a partida. 
 A partir dessa proposta, o projeto aplica, de forma visual e interativa, conceitos como rasterização, preenchimento, animação 2D, transformações geométricas, janela, viewport, clipping e texturização.
 
+---
+
+## ▶️ Vídeo do projeto em execução
+
+O projeto possui uma demonstração em vídeo no **YouTube**, apresentando o **Try2Cheat** em funcionamento.
+<div align="center">
+  <table width="100%"> 
+    <tr> 
+      <th width="15%" align="center">Ícone</th>
+      <th width="15%" align="center">Plataforma</th>
+      <th width="70%" align="center">Link do vídeo</th>
+    </tr> 
+    <tr>
+      <td align="center">
+        <img src="https://api.iconify.design/simple-icons:youtube.svg?color=%23FF0000" width="32" height="32" alt="YouTube">
+      </td>
+      <td align="center"><strong>YouTube</strong></td>
+      <td><a href="https://youtu.be/5D-Y9EPd9h4">https://youtu.be/5D-Y9EPd9h4</a></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
