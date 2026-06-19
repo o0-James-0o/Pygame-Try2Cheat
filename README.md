@@ -7,7 +7,7 @@ A partir dessa proposta, o projeto aplica, de forma visual e interativa, conceit
 
 ---
 
-## ▶️ Vídeo do projeto em execução
+## ▶️ Vídeo do projeto
 
 O projeto possui uma demonstração em vídeo no **YouTube**, apresentando o **Try2Cheat** em funcionamento.
 <div align="center">
